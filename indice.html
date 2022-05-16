@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<cabeza>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="estilos.css">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+     <link href="bootstrap-5.1.3-examples/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<title>Netflix</title>
+</head>
+<body>
+<header>
+<div class="contenedor">
+<h2 class="logotipo">LOMEJOR DEL CINE</h2>
+<nav>
+<a href="#" class="activo">Inicio</a>
+<a href="#">Películas</a>
+<a href="#">Más Recientes</a>
+<a href="#">Mi lista</a>
+</nav>
+</div>
+<hr>
+</header>
+<main>
+
+<div class="pelicula-principal">
+<div class="contenedor">
+<p class="centrado"></p>
+
+<h3 class="titulo">Ya te extraño</h3>
+<p class="descripcion">La historia de la película se basa en 2 amigas que se conocen en Londres, debido a que los padres de Jess (Drew Barrymore) 
+se mudaron hacia allá y toda su vida se desarrolla en los colegios y clima londinense, se conocen en la “primaria” y Milly se hace amiga y le enseña 
+cómo hablar mejor inglés británico y se genera una enorme y gran amistad en la que no existe cosa y cuestión que no sea compartida entre ambas, desde 
+el primer beso, los romances de niñas y jóvenes, hasta la pérdida de la virginidad en un concierto para Milly con una estrella del Rock.</p>
+<button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
+<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
+</div>
+</div>
+<div  class =" peliculas-recomendadas contenedor">
+  <div  class ="contenedor-titulo-controles">
+    <h1> PELICULAS RECOMENDADAS </h1>
+      <div  class ="indicadores">
+
+      </div>
+  </div>
+</main>
+<main>
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+  
+      <div class="carousel-inner">
+      <div class="carousel-item active">
+      <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+    
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Example headline.</h1>
+            <p>Some representative placeholder content for the first slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+      
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>One more for good measure.</h1>
+            <p>Some representative placeholder content for the third slide of this carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<center><table style="width: 90%">
+  <tr>
+    <th><center><h1>TERROR</h1></center></th>
+    <th><center><h1>ACCION</h1></center></th>
+    <th><center><h1>INFANTILES</h1></center></th>
+  </tr>
+  <tr>
+    <td><center><a href="https://static.cinepolis.com/videos/37046/1/2/37046.webm"><img src="espiritusoscuros.jpg" ></a></center></td>
+    <td><center><a href="https://static.cinepolis.com/videos/34669/1/2/34669.webm"><img src="rapidoyfuriosos.jpg" ></a></center></td>
+    <td><center><a href="https://youtu.be/w5-UAH1z21w"><img src="red.jpg"></a></center></td>
+  </tr>
+  <tr>
+    <td><center><p>"En un aislado pueblo de Oregón, una maestra de escuela secundaria  y su hermano, el sheriff del pueblo,ç
+       se involucran con un enigmático alumno de ella cuyos oscuros secretos conducen a aterradores encuentros con una legendaria criatura ancestral."</p></center></td>
+    <td><center><p>"Sólo hay que tener fe y mil incoherencias mezcladas con acción desenfrenada caracteriza a la nueva película 
+      de la famosa saga. A pesar de todo esto, las cintas (por alguna extraña razón) siguen siendo todo un éxito y Fast y Furious 9 seguro replicará en México su éxito en territorio asiático."</p></center></td>
+    <td><center><p>"Mei Lee, una niña de 13 años un poco rara pero segura de sí misma, que se debate entre seguir siendo la hija
+       obediente que su madre quiere que sea y el caos de la adolescencia"</p></center></td>
+  </tr>
+</table>
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+<script src="bootstrap-5.1.3-examples/assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
